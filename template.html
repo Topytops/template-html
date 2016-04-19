@@ -7,8 +7,6 @@
     	
     	div {
     		margin: 0;
-    		height: 100px;
-    		width: 500px;
 /*    		background-color: #ff0000;
 */    	}
     	
@@ -22,20 +20,32 @@
     	}
 
     	#red-box {
+    		/*margin-left: 0;*/
     		
     		background-color: red;
+    		height: 200px;
+    		width: 350px;
+    		float: left;
 
     	}
 
-    	#gold-box {
-    		background-color: #ffd700;
+  /*  	#gold-box {
+    		background-color: #ffd700;*/
+
+
+    	#blue {
+    		background-color: blue;
+    		display: inline-block;
+    		height: 200px;
+    		width: 350px;
 
     	}
 
     	.black-square {
     		height: 100px;
     		width: 100px;
-    		margin: 50px;
+    		margin-left: 50px;
+    		margin-top: 50px;
     		background-color: black;
     		display:inline-block;
     	}
@@ -46,10 +56,18 @@
 <body>
 	<!-- <h1> Hello world. </h1> -->
 <!-- 	<div id="black-box"></div>
-	<div id="red-box"> </div>
-	<div id="gold-box"></div>
  -->
- 	<div class="black-square"></div>
- 	<div class="black-square"></div>
+ 	<div id="red-box"> 
+		<div class="black-square"></div>
+ 		<div class="black-square"></div>
+	</div>
+
+<!-- 	<div id="gold-box"></div>
+ -->
+ 	<div id="blue">
+	 	<div class="black-square"></div>
+	 	<div class="black-square"></div>
+ 	</div>
+
 </body>
 </html>
